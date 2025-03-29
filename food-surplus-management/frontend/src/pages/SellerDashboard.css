@@ -1,0 +1,38 @@
+.seller-dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.seller-dashboard h2 {
+    color: #6a0572;
+    margin-bottom: 20px;
+}
+
+.seller-dashboard form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.seller-dashboard input,
+.seller-dashboard textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.seller-dashboard button {
+    padding: 10px;
+    background-color: #6a0572;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.seller-dashboard button:hover {
+    background-color: #a61400;
+}

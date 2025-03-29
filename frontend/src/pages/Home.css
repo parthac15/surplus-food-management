@@ -1,0 +1,65 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f06, #3cf);
+    animation: backgroundMove 10s infinite alternate;
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .get-started-btn {
+    background: #ff8c00;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Animations */
+  @keyframes backgroundMove {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

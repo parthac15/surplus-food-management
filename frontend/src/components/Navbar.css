@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #1f2937;
+    color: white;
+    border-bottom: 2px solid #4ade80;
+}
+
+.navbar h1 {
+    color: #4ade80;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #4ade80;
+}

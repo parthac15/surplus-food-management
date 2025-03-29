@@ -1,0 +1,59 @@
+.admin-dashboard {
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: #00bfff;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #1e90ff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.data-section {
+  margin: 40px 0;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00bfff;
+}
+
+h2 {
+  color: #00bfff;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 0 15px #1e90ff;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #555;
+}
+
+th {
+  background: #00bfff;
+  color: black;
+  font-weight: bold;
+}
+
+tr:hover {
+  background: #1e90ff;
+  color: #fff;
+  transition: 0.3s;
+}
+
+tbody tr:nth-child(odd) {
+  background: #1c1c1c;
+}
+
+tbody tr:nth-child(even) {
+  background: #2a2a2a;
+}
